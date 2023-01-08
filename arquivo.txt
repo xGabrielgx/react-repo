@@ -5,7 +5,7 @@ ssh-keygen -t rsa -f "/c/Users/seu-usuario/.ssh/nome-chave" -C 'seu-email@email.
 
 # Quando fechar o terminal preciso executar isso
 eval "$(ssh-agent -s)"
-ssh-add /c/Users/seu-usuario/.ssh/nome-chave
+ssh-add /c/Users/pc/.ssh/github
 
 # Iniciando o git
 git init
